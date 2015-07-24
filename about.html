@@ -34,36 +34,31 @@
   <link rel="apple-touch-icon" href="images/apple-icon-144x144.png">
 </head>
 <body>
-  <div class="w-nav nav-bar" data-collapse="medium" data-animation="over-right" data-duration="400" data-contain="1" data-doc-height="1" data-no-scroll="1">
-    <div class="w-container menu-container">
-      <nav class="w-nav-menu menu-nav" role="navigation"><a class="w-nav-link nav-link2" href="about.html">About</a><a class="w-nav-link nav-link2" href="contact.html">Contact</a><a class="w-nav-link nav-link2" href="http://izel-maras.tumblr.com/">Tumblr</a>
+  <div class="w-nav navigation" data-collapse="medium" data-animation="default" data-duration="400" data-contain="1" data-ix="display-none-navbar">
+    <div class="w-container nav-cont" data-ix="disappear-on-scroll">
+      <a class="w-nav-brand logo" href="index.html"></a>
+      <nav class="w-nav-menu" role="navigation"><a class="w-nav-link nav-link" href="#works">Works</a><a class="w-nav-link nav-link" href="about.html">About</a>
       </nav>
-      <div class="w-nav-button w-clearfix menu-real"><img class="icon" src="images/hamburgerIcon.png" width="20">
+      <div class="w-nav-button">
+        <div class="w-icon-nav-menu"></div>
       </div>
-      <a class="w-inline-block" href="index.html"><img class="logo" src="images/logo.png" width="164">
-      </a>
     </div>
   </div>
-  <div class="w-section page-text-about" id="new">
-    <div class="w-container container centered">
-      <div class="w-row _2-half-column different">
-        <div class="w-col w-col-6 left-column about"><img src="images/10897131_10152684683095784_6436276589352590865_n.jpg">
-        </div>
-        <div class="w-col w-col-6 right-column">
-          <p class="small-paragraph">Lorem ipsum dolor sit amet consectetur. <a href="#pricing" class="link small">More info ›</a>
-          </p>
-          <p class="w-clearfix about">Izel Maras is a graphic designer and a programmer. She has recently received a Bachelor of Arts in Visual Design with a Computer Science minor from Tufts University in Boston. &nbsp;She is an adept programmer and an intuitive designer who uses her skills in low-level programming to&nbsp;create intuitive user interfaces and pixel perfect print designs. Izel is currently spending her summer working at Marcelo Coelho Studio on various experimental and innovative projects exploring the ways in which we interact and communicate with one another.
-            <br>
-            <br><a class="contact-links" href="resume.html">resume</a>
-            <br><a class="contact-links" href="https://www.linkedin.com/in/izelmaras">linkedin</a>&nbsp;
-            <br><a class="contact-links" href="https://github.com/izelmaras">github</a>
-          </p>
-        </div>
+  <div class="w-section about" id="about" data-ix="disappear-nav-on-scroll-out">
+    <div class="w-row title">
+      <div class="w-col w-col-6 main-col"><img src="images/11046362_10153147140607708_3327424648315223679_n.jpg" width="179">
+      </div>
+      <div class="w-col w-col-6 w-clearfix">
+        <div class="paragraph-text">Izel Maras is a graphic designer and a programmer.
+          <br>She has recently received a Bachelor of Arts in Visual Design with a minor in Computer Science from Tufts University in Boston. &nbsp;
+          <br>
+          <br>Izel is currently spending her summer working at Marcelo Coelho Studio on various experimental and innovative projects exploring the ways in which we interact and communicate with one another.</div><a class="link" href="resume.html">Resume</a><a class="link" href="https://github.com/izelmaras">Github</a><a class="link" href="https://www.linkedin.com/in/izelmaras">Linkedin&nbsp;</a>
       </div>
     </div>
+    <a class="w-inline-block arrow" href="#works"></a>
   </div>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript" src="js/webflow.js"></script>
   <!--[if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
 </body>
 </html>
